@@ -1,0 +1,15 @@
+{
+  "name": "Mizuki folded umbrella - reference reconstruction",
+  "version": 4,
+  "source": "User supplied umbrella views and close-ups of rib finials, spinning-top connector and parallel-return handle, 2026-10-23; hidden surfaces reconstructed",
+  "displayScale": 0.80,
+  "worldYOffset": -0.60,
+  "worldYaw": 1.5707963267948966,
+  "nativePrototypeScale": 3.5,
+  "nativeGroupPosition": [0, 3.446, 0],
+  "folds": 8,
+  "bodyProfile": [[-12.35, 0.105], [-11.94, 0.20], [-10.77, 0.35], [-8.94, 0.50], [-7.11, 0.62], [-5.36, 0.72], [-3.825, 0.80], [-3.13, 0.80]],
+  "crownProfile": [[-3.1, 0.79], [-2.82, 0.90], [-1.70, 1.52], [-1.52, 1.52], [-0.80, 0.70], [-0.40, 0.27], [-0.15, 0.18]],
+  "handle": { "shaftBaseY": 1.36, "arcBaseY": 3.30, "bendRadius": 0.62, "returnLength": 0.70, "tailRadius": 0.11, "endLength": 0.06, "halfWidth": 0.12, "halfDepth": 0.078 },
+  "materialPolicy": "Original SpineShader / FBR and normal map; white/navy/light-blue BaseColor, Matcap and MRO input adaptation; whole-interface final native composite color grade"
+}

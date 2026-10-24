@@ -1,0 +1,2 @@
+# Native runtime and shader fingerprints require exact source bytes on every OS.
+* -text

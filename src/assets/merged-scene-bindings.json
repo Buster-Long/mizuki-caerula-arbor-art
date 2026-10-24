@@ -1,0 +1,115 @@
+{
+  "INPUT_Config_21_TreeScene_visible": true,
+  "INPUT_Config_21_TreeScene_custom": "Proton",
+  "INPUT_Config_2_TreeScene_visible": true,
+  "INPUT_Config_4_TreeScene_geometry": {
+    "filename": "deep-blue-roots.json",
+    "prefix": "",
+    "relative": "assets/geometry/daily",
+    "src": "assets/geometry/daily/deep-blue-roots.json"
+  },
+  "INPUT_Config_4_TreeScene_visible": true,
+  "INPUT_Config_5_Work_geometry": {
+    "filename": "mizuki-umbrella.json",
+    "prefix": "",
+    "relative": "assets/geometry/daily",
+    "src": "assets/geometry/daily/mizuki-umbrella.json"
+  },
+  "INPUT_Config_7_TreeScene_visible": false,
+  "INPUT_P_Element_21_TreeScene_config_particleCount": "Tests.logoParticleCount()",
+  "INPUT_P_Element_21_TreeScenecode_1_uniforms": "\n        tShape3D: Csampler2D\n",
+  "INPUT_P_Element_21_TreeScenecode_1_code": "#require(curl.glsl)\nvec3 target = texture2D(tShape3D, uv).xyz;\npos = target + curlNoise(target * 0.4 + time * 0.12) * 0.018;",
+  "INPUT_P_Element_21_TreeScenecode_1_preset": "3dshape",
+  "MESH_Element_21_TreeSceneposition": [
+    0,
+    0,
+    0
+  ],
+  "MESH_Element_8_TreeSceneposition": [
+    7,
+    0.284,
+    -1
+  ],
+  "SpineShader/SpineShader/Element_5_Work/_tx_tBaseColor": {
+    "src": "assets/daily/umbrella-blue-base.png",
+    "filename": "umbrella-blue-base.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false,
+    "hotreload": true
+  },
+  "SpineShader/SpineShader/Element_5_Work/_tx_tMRO": {
+    "src": "assets/daily/umbrella-blue-mro.png",
+    "filename": "umbrella-blue-mro.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false,
+    "hotreload": true
+  },
+  "SpineShader/SpineShader/Element_5_Work/_tx_tMatcap": {
+    "src": "assets/daily/umbrella-blue-matcap.png",
+    "filename": "umbrella-blue-matcap.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false,
+    "hotreload": true
+  },
+  "SpineShader/SpineShader/Element_5_Work/_txtMRO": {
+    "src": "assets/daily/umbrella-blue-mro.png",
+    "filename": "umbrella-blue-mro.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false,
+    "hotreload": true
+  },
+  "SpineShader/SpineShader/Element_5_Work/_txtMatcap": {
+    "src": "assets/daily/umbrella-blue-matcap.png",
+    "filename": "umbrella-blue-matcap.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false,
+    "hotreload": true
+  },
+  "SpineShader/SpineShader/Element_5_Work/_txtBaseColor": {
+    "src": "assets/daily/umbrella-blue-base.png",
+    "filename": "umbrella-blue-base.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false,
+    "hotreload": true
+  },
+  "SpineShader/SpineShader/Element_5_Work/uColor": "#f5fbff",
+  "TreeFBR/TreeFBR/Element_4_TreeScene/_tx_tBaseColor": {
+    "src": "assets/daily/deep-blue-root-base.png",
+    "filename": "deep-blue-root-base.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false
+  },
+  "TreeFBR/TreeFBR/Element_4_TreeScene/_txtBaseColor": {
+    "src": "assets/daily/deep-blue-root-base.png",
+    "filename": "deep-blue-root-base.png",
+    "prefix": "assets/daily",
+    "relative": "",
+    "compressed": false,
+    "useCompressed": false
+  },
+  "sl_TreeScene_4_deleted": false,
+  "INPUT_P_Element_21_TreeScenecode_1_geometry": "assets/geometry/daily/deep-blue-roots.json",
+  "sl_TreeScene_22_deleted": true,
+  "INPUT_Config_22_TreeScene_visible": false,
+  "INPUT_Config_3_TreeScene_visible": false,
+  "TreeSceneCompositeuRGBStrength": 0,
+  "TreeSceneCompositeuContrast": [
+    1,
+    1.5
+  ],
+  "INPUT_P_Element_6_Workcode_1_code": "vec3 pointShape = texture2D(tPointCloud, uv).xyz;\nvec3 target = pointShape;"
+}
