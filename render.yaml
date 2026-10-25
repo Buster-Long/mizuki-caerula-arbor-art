@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: mizuki-caerula-arbor-art
+    runtime: node
+    plan: free
+    region: singapore
+    repo: https://github.com/Buster-Long/mizuki-caerula-arbor-art
+    branch: main
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /__health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.23.3
+      - key: NODE_ENV
+        value: production
